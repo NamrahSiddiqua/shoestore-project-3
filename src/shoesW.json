@@ -1,0 +1,90 @@
+    {
+        "vala-multi-snake": {
+        "name": "VALA MULTI SNAKE",
+        "price": "$94.95",
+        "img":
+            "https://cdn.shopify.com/s/files/1/2170/8465/products/STEVEMADDEN-DRESS_VALA_MULTI-SNAKE_grande.jpg?v=1571609498"
+    },
+    "carrson-r-crystal": {
+        "name": "CARRSON-R CRYSTAL",
+        "price": "$104.95",
+        "img":
+            "https://cdn.shopify.com/s/files/1/2170/8465/products/STEVEMADDEN-DRESS_CARRSON-R_CRYSTAL_SIDE_grande.jpg?v=1571609300"
+    },
+    "carrson-black-leather": {
+        "name": "CARRSON BLACK LEATHER",
+        "price": "$90.95",
+        "img":
+            "https://cdn.shopify.com/s/files/1/2170/8465/products/STEVEMADDEN-DRESS_CARRSON_BLACK-LEATHER_SIDE_grande.jpg?v=1571609299"
+    },
+    "womens-6-inch-premium-waterproof-boots-a2a8h662": {
+        "name": "WOMEN'S LOVE COLLECTIONS",
+        "price": "$170.00",
+        "img": "https://images.timberland.com/is/image/timberland/A2A8H662-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
+    },
+    "womens-sutherlin-bay-low-chelsea-boots-brown-tan-a2eff210": {
+        "name": "BAY LOW CHELSEA BOOTS",
+        "price": "$150.00",
+        "img":
+            "https://images.timberland.com/is/image/timberland/A2EFF210-HERO?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
+    },
+    "vivacious-pink": {
+        "name": "VIVACIOUS PINK",
+        "price": "$110.95",
+        "img":
+            "https://cdn.shopify.com/s/files/1/2170/8465/products/STEVEMADDEN-DRESS_VIVACIOUS_PINK_grande.jpg?v=1572455454"
+    },
+    "audria-camel-multi": {
+        "name": "AUDRIA CAMEL MULTI",
+        "price": "$134.95",
+        "img":
+            "https://cdn.shopify.com/s/files/1/2170/8465/products/STEVEMADDEN-DRESS_AUDRIA_CAMEL-MULTI_grande.jpg?v=1582825798"
+    },
+    "womens-6-inch-premium-waterproof-boots-a2fq8513": {
+        "name": "WOMEN'S LOVE COLLECTION",
+        "price": "$170.00",
+        "img":
+            "https://images.timberland.com/is/image/timberland/A2FQ8513-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
+    },
+    "Dr.+Scholls+Orig+Collection/Black_White+Snake+Print/Womens+Faxon+Loafer.aspx": {
+        "name": "WOMEN'S FAXON LOAFER",
+        "price": "$89.99",
+        "img":"https://www.famousfootwear.com/ProductImages/shoes_ia80630.jpg?trim.threshold=105&width=600&height=350&paddingWidth=40&anchor=bottomcenter"
+    },
+    "Chuck+Taylor+All+Star+Low+Top+Sneaker.aspx": {
+        "name": "CONVERSE TIE DYE",
+        "price": "$59.44",
+        "img":"https://www.famousfootwear.com/ProductImages/shoes_ia36329.jpg?trim.threshold=105&width=600&height=350&paddingWidth=40&anchor=bottomcenter"
+    },
+    "Womens+Play+Slip+On+Sneaker.aspx": {
+        "name": "SLIP ON SNEAKER",
+        "price": "$39.99",
+        "img":"https://www.famousfootwear.com/ProductImages/shoes_ia97039.jpg?trim.threshold=105&width=600&height=350&paddingWidth=40&anchor=bottomcenter"
+    },
+    "Womens+Neon+Slip+On.aspx": {
+        "name": "NEON SLIP ON",
+        "price": "$39.44",
+        "img":"https://www.famousfootwear.com/ProductImages/shoes_ia30225.jpg?trim.threshold=105&width=600&height=350&paddingWidth=40&anchor=bottomcenter"
+    },
+    "Womens++Asher+Slip+On+Sneaker.aspx": {
+        "name": "ASHER SLIP ON SNEAKER",
+        "price": "$49.99",
+        "img":"https://www.famousfootwear.com/ProductImages/shoes_ia56579.jpg?trim.threshold=105&width=600&height=350&paddingWidth=40&anchor=bottomcenter"
+    },
+    "ted-baker-london-brydien-brooch-pump?color=PINK": {
+        "name": "Brydien Brooch Pump",
+        "price": "$89.98",
+        "img":"https://www.hautelookcdn.com/products/241457/large/13056714.jpg?interpolation=lanczos-none&downsize=434:650&output-quality=90&output-format=jpeg"
+    },
+    "call-it-spring-aiden-d-orsay-pump?color=BLACK%20MICROFIBRE%20TEX": {
+        "name": "Aiden d'Orsay Pump",
+        "price": "$22.48",
+        "img":"https://www.hautelookcdn.com/products/AIVEN/large/15704006.jpg?interpolation=lanczos-none&downsize=434:650&output-quality=90&output-format=jpeg"
+    },
+    "sam-edelman-jaina-suede-d-orsay-pump?color=HAZELNUT": {
+        "name": "Jaina Suede d'Orsay Pump",
+        "price": "$44.98",
+        "img":"https://www.hautelookcdn.com/products/G23322L/large/12294778.jpg?interpolation=lanczos-none&downsize=434:650&output-quality=90&output-format=jpeg"
+    }
+
+}
