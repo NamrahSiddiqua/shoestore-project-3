@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar/Navbar'
 import './App.css';
 import image from './components/Navbar/logo.png'
-import { render } from "react-dom";
+
 
 function App() {
   return (
