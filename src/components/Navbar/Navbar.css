@@ -41,6 +41,7 @@ body {
     padding: 9px;
     font-family: "Times New Roman", Times, serif;
     font-size: 170%;
+    color: white;
   }
   nav a:hover {
     display: inline-block;
@@ -49,6 +50,7 @@ body {
     font-size: 170%;
     transform: scale(1.1o);
     background: linear-gradient(to right, #923453, #a8260e);
+    color: white;
   }
   
   a {
@@ -77,6 +79,7 @@ body {
     padding: 25px 60px;
     font-size: 17px;
     background-color: #8bacbb;
+    color: white;
   }
   .productContainer > d.link {
     margin-left: 30px;
@@ -84,11 +87,12 @@ body {
     box-shadow:  0px 10px  #879aa3;
     text-align: center;
     margin: 10px;
-    padding:'70px 0px 20px 20px'
+    padding:'70px 0px 20px 20px';
+    color: white;
   }
   .productContainer > .link:hover {
     background-color: #6f8792;
-    color: black;
+    color: white;
   }
 
   

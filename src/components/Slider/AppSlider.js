@@ -7,16 +7,16 @@ import slide4 from "../assets/slide4.jpeg";
 import slide5 from "../assets/slide5.jpeg";
 import slide6 from "../assets/slide6.jpeg";
 import slide7 from "../assets/slide7.jpeg";
-// import styles from './custom.css';
+import styles from './custom.css';
 // import image from '../Navbar/logo.png';
-// import {
-//     BrowserRouter as Router,
-//     Routes,
-//     Route,
-//     Link,
-//     Outlet,
-//     useParams
-// } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    Outlet,
+    useParams
+} from "react-router-dom";
 //===========================================
 // CREATE STYLES OBJECT
 //===========================================

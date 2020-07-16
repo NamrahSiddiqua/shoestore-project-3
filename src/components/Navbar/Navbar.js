@@ -7,7 +7,7 @@ import {
     Outlet,
     useParams
 } from "react-router-dom";
-// import styles from '../Navbar/Navbar.css';
+import styles from '../Navbar/Navbar.css';
 import AppSlider from '../Slider/AppSlider';
 
 import shoesW from '../../shoesW.json';
@@ -69,6 +69,7 @@ function Launcha() {
         title: {
             backgroundColor: '#569496',
             padding: '70px 0px 20px 20px',
+            color: 'white'
 
         },
     }))
@@ -134,7 +135,7 @@ function Launchb() {
         title: {
             backgroundColor: '#569496',
             padding: '70px 0px 20px 20px',
-
+            color: 'white'
         },
     }))
 

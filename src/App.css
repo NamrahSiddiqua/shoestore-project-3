@@ -54,3 +54,16 @@
   font-size: 170%;
   padding: 10px;
 }
+.logo {
+  width: 11%;
+  height: 5%;
+  margin-right: 1200px;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.webname {
+  color: white;
+  text-align: justify;
+}
