@@ -76,7 +76,7 @@ body {
     grid-column-gap: 10px;
     flex-wrap: wrap;
     float: initial;
-    text-align: justify;
+    text-align: center;
     padding: 25px 60px;
     font-size: 17px;
     background-color: #8bacbb;
