@@ -7,7 +7,7 @@ import {
     Outlet,
     useParams
 } from "react-router-dom";
-import styles from '../Navbar/Navbar.css';
+import '../Navbar/Navbar.css';
 import AppSlider from '../Slider/AppSlider';
 
 import shoesW from '../../shoesW.json';
