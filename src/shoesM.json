@@ -1,6 +1,6 @@
 {
     "mens-jacksons-landing-waterproof-chukka-boots-a2a17220": {
-    "name": "CHUKKA BOOTS",
+    "name": "JACKSOND LANDING CHUKKA BOOTS",
     "price": "$59.99",
     "img":
         "https://images.timberland.com/is/image/timberland/A2A17220-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
@@ -29,7 +29,7 @@
         "https://images.timberland.com/is/image/timberland/A1S6C019-ALT5?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 },
 "mens-6-inch-premium-mixed-media-waterproof-boots-grey-a2j13030": {
-    "name": "MEN'S 6-INCH PREMIUM MIXED-MEDIA WATERPROOF BOOTS",
+    "name": "MEN'S 6-INCH PREMIUM WATERPROOF BOOTS",
     "price": "$99.99",
     "img":
         "https://images.timberland.com/is/image/timberland/A2J13030-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
@@ -41,13 +41,13 @@
         "https://images.timberland.com/is/image/timberland/A2E51242-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 },
 "mens-port-union-waterproof-chukka-boots-a2e93838": {
-    "name": "MEN'S PORT UNION WATERPROOF CHUKKA BOOTS",
+    "name": "MEN'S WATERPROOF CHUKKA BOOTS",
     "price": "$69.99",
     "img":
         "https://images.timberland.com/is/image/timberland/A2E93838-ALT4?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 },
 "react-infinity-run-flyknit-mens-running-shoe-zX42Nc/CD4371-102": {
-    "name": "Nike React Infinity Run Flyknit",
+    "name": "NIKE REACT INFINITY RUN FLYKNIT",
     "price": "$160.00",
     "img":"https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/60fc8c1c-9c9f-4507-b7b8-ad3f6939cf7d/react-infinity-run-flyknit-mens-running-shoe-zX42Nc.jpg"
 },
@@ -57,12 +57,12 @@
     "img":"https://images.timberland.com/is/image/timberland/A19VK088-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 },
 "alfani-mens-andrew-plain-toe-derbys-created-for-macys?ID=2907838&CategoryID=70405": {
-    "name": "ROBBIE SUEDE DOUBLE MONK STRAP DRESS SHOE",
+    "name": "DOUBLE MONK STRAP DRESS SHOE",
     "price": "$64.67",
     "img":"https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9199563_fpx.tif?op_sharpen=1&wid=402&hei=489&fit=fit,1&$filtersm$&fmt=webp"
 },
 "bar-iii-mens-parker-leather-cap-toe-brogues-created-for-macys?ID=4763721&CategoryID=70405": {
-    "name": "Men's Parker Leather Cap-Toe",
+    "name": "MEN'Ss PARKER LEATHER CAP-TOE",
     "price": "$107.79",
     "img":"https://slimages.macysassets.com/is/image/MCY/products/5/optimized/8561475_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$"
 },
@@ -82,7 +82,7 @@
     "img":"https://images.timberland.com/is/image/timberland/A2CW4212-ALT3?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 },
 "mens-kendrick-waterproof-chukka-boots-a1suh931": {
-    "name": "MEN'S KENDRICK WATERPROOF CHUKKA BOOTS",
+    "name": "KENDRICK WATERPROOF CHUKKA BOOTS",
     "price": "$60.00",
     "img":"https://images.timberland.com/is/image/timberland/A1SUH931-ALT4?wid=720&hei=720&fit=constrain,1&qlt=85,1&op_usm=1,1,6,0"
 }

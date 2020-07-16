@@ -10,6 +10,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    justify-content: center;
   }
   
   code {
@@ -74,12 +75,14 @@ body {
     grid-row-gap: 50px;
     grid-column-gap: 10px;
     flex-wrap: wrap;
-    float: left;
-    text-align: center;
+    float: initial;
+    text-align: justify;
     padding: 25px 60px;
     font-size: 17px;
     background-color: #8bacbb;
     color: white;
+    justify-content: center;
+    align-items: center;
   }
   .productContainer > d.link {
     margin-left: 30px;
@@ -89,11 +92,14 @@ body {
     margin: 10px;
     padding:'70px 0px 20px 20px';
     color: white;
+    justify-content: center;
   }
   .productContainer > .link:hover {
     background-color: #6f8792;
     color: white;
   }
+
+
 
   
   
