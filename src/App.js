@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <br />
       {/* <Update /> */}
-      <div className="footer">Built in React - by Namrah Siddiqua</div>
+      <div className="footer">Built in React by - Namrah Siddiqua</div>
     </div>
   );
 }
