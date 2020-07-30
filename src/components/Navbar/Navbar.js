@@ -13,6 +13,7 @@ import AppSlider from '../Slider/AppSlider';
 import GlobalContext from "../../state/GlobalContext";
 import shoesW from '../../shoesW.json';
 import shoesM from '../../shoesM.json';
+import shoesK from '../../shoesK.json';
 // import AllProducts from './AllProducts';
 import { Container, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
@@ -27,8 +28,7 @@ export default function Navbar() {
                 <Link to="/">Home</Link>
                 <Link to="/women">  Women</Link>
                 <Link to="/men">  Men</Link>
-                {/* <Link to="/kids">  Kids</Link> */}
-
+                <Link to="/kids">  Kids</Link>
             </nav>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -40,10 +40,10 @@ export default function Navbar() {
                     <Route path="/" element={<LaunchIndexb />} />
                     <Route path=":slug" element={<LaunchShoeb />} />
                 </Route>
-                {/* <Route path="kids" element={<Launchc />}>
+                <Route path="kids" element={<Launchc />}>
                     <Route path="/" element={<LaunchIndexc />} />
                     <Route path=":slug" element={<LaunchShoec />} />
-                </Route> */}
+                </Route>
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
@@ -61,7 +61,10 @@ function NotFound() {
 
 function Home() {
     return (
-        <AppSlider />
+        <div>
+            <AppSlider />
+            <br />
+        </div>
     );
 }
 
@@ -162,16 +165,12 @@ function LaunchShoea() {
             <br />
             <div className="productContainer">
                 <ul>
-                    <br />
-                    <br />
-                    <br />
-                    <br />
                     <li><h2>{shoe.name}</h2></li>
                     <br />
                     <li><h3>Price: {shoe.price}</h3></li>
                     <Button
                         variant="contained"
-                        color="inherit"
+                        color="primary"
                         className={classes.button}
                         startIcon={<AddShoppingCartIcon />}
                         onClick={handleAddToCart}
@@ -185,7 +184,9 @@ function LaunchShoea() {
                 <br />
                 <br />
                 <br />
-                <img src={shoe.img} alt={name} height={550}/>
+                <br />
+                <hr />
+                <img src={shoe.img} alt={name} height={550} />
             </div>
         </div>
     );
@@ -205,7 +206,7 @@ function Launchb() {
     return (
         <Container maxWidth='lg'>
             <div className={classes.title}>
-                <h1><u>ProRODUCTS</u></h1>
+                <h1><u>PRORODUCTS</u></h1>
                 <h2>MEN FOOTWEAR</h2>
             </div>
             <hr />
@@ -285,17 +286,15 @@ function LaunchShoeb() {
     return (
         <div>
             <h1 color="black">Men Collection </h1>
-            <br/>
+            <br />
             <div className="productContainer">
                 <ul>
-                    <br />
-                    <br />
                     <li><h2>{shoe.name}</h2></li>
                     <br />
                     <li><h3>Price: {shoe.price}</h3></li>
                     <Button
                         variant="contained"
-                        color="inherit"
+                        color="primary"
                         className={classes.button}
                         startIcon={<AddShoppingCartIcon />}
                         onClick={handleAddToCart}
@@ -310,54 +309,134 @@ function LaunchShoeb() {
                 <br />
                 <br />
                 <br />
+                <hr />
                 <img src={shoe.img} alt={name} height={550} />
             </div>
         </div>
     );
 }
 
-// function Launchc() {
-//     return (
-//         <div>
-//             <h1>Kids Collection</h1>
-//             <Outlet />
-//         </div>
-//     );
-// }
+function Launchc() {
+    const useStyle = makeStyles(theme => ({
+        title: {
+            backgroundColor: '#569496',
+            padding: '70px 0px 20px 20px',
+            color: 'white'
+        },
+    }))
 
-// function LaunchIndexc() {
-//     return (
-//         <ul>
-//             {Object.entries(shoesK).map(([slug, { name, img }]) => (
-//                 <li key={slug}>
-//                     <Link to={`/launch/${slug}`}>
-//                         <h2>{name}</h2>
-//                         <img src={img} alt={name} />
-//                     </Link>
-//                 </li>
-//             ))}
-//         </ul>
-//     );
-// }
+    const classes = useStyle();
 
-// function LaunchShoec() {
-//     const { slug } = useParams();
-//     const shoe = shoesK[slug];
+    return (
+        <Container maxWidth='lg'>
+            <div className={classes.title}>
+                <h1><u>PRORODUCTS</u></h1>
+                <h2>KIDS FOOTWEAR</h2>
+            </div>
+            <hr />
+            <br />
+            <Outlet />
+        </Container>
+    );
+}
 
-//     if (!shoe) {
-//         return <h2>Not Found!</h2>;
-//     }
+function LaunchIndexc() {
+    const useStyles = makeStyles((theme) => ({
+        button: {
+            marginTop: theme.spacing(3),
+            backgroundColor: "#2a6070"
+        }
+    }));
 
-//     const { name, img } = shoe;
+    const { addToCart } = useContext(GlobalContext);
+    function handleAddToCart() {
+        addToCart(shoesK);
+    }
 
-//     return (
-//         <div>
-//             <h2>{name}</h2>
-//             <img src={img} alt={name} />
-//         </div>
-//     );
-// }
+    const classes = useStyles();
+    return (
+        <div className="productContainer">
+            {Object.keys(shoesK).map(keyName => {
+                const shoe = shoesK[keyName]
+                return (
+                    <Link key={keyName}
+                        className="link" to={`/kids/${keyName}`}>
+                        <img src={shoe.img} height={250} alt={shoe.name} />
+                        <h3>{shoe.name}</h3>
+                        <h4>Price: {shoe.price}</h4>
+                        <Button
+                            variant="contained"
+                            color="primary"
+                            className={classes.button}
+                            startIcon={<AddShoppingCartIcon />}
+                            onClick={handleAddToCart}
+                            disabled={shoe.items_left <= 0}
+                            fullWidth
+                        >
+                            Add to cart
+                        </Button>
+                    </Link>)
+            })}
+        </div>
 
+    );
+}
 
+function LaunchShoec() {
+    const { slug } = useParams();
+    const shoe = shoesK[slug];
 
+    const useStyles = makeStyles((theme) => ({
+        button: {
+            marginTop: theme.spacing(3),
+            backgroundColor: "#2a6070"
+        }
+    }));
+
+    const { addToCart } = useContext(GlobalContext);
+
+    const classes = useStyles();
+
+    if (!shoe) {
+        return <h2>Product Not Found!</h2>;
+    }
+
+    const { name, img } = shoe;
+
+    function handleAddToCart() {
+        addToCart(shoesK);
+    }
+
+    return (
+        <div>
+            <h1 color="black">Kids Collection </h1>
+            <br />
+            <div className="productContainer">
+                <ul>
+                    <li><h2>{shoe.name}</h2></li>
+                    <br />
+                    <li><h3>Price: {shoe.price}</h3></li>
+                    <Button
+                        variant="contained"
+                        color="primary"
+                        className={classes.button}
+                        startIcon={<AddShoppingCartIcon />}
+                        onClick={handleAddToCart}
+                        disabled={shoe.items_left <= 0}
+                        fullWidth
+                    >
+                        Add to cart
+                </Button>
+                </ul>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <hr />
+                <img src={shoe.img} alt={name} height={550} />
+            </div>
+        </div>
+    );
+}
 

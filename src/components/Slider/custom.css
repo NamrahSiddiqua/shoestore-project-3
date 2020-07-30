@@ -33,7 +33,7 @@
     background-color: #3e6a7c;
 }
 .white {
-    background-color: #fff;
+    background-color:#0c202b;
 }
 .white50 {
     background-color: #ffffff80;
@@ -108,7 +108,7 @@
     transition: background-color 1s ease-in-out;
 }
 
-
+/* 
 .logo {
     width: 11%;
     height: 5%;
@@ -121,4 +121,4 @@
   .webname {
     color: rgb(0, 0, 0);
     text-align: justify;
-  }
+  } */
